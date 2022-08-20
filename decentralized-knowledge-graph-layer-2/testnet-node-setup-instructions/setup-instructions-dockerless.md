@@ -18,7 +18,28 @@ Need any assistance with node setup? Join the DKGv6 Discord chat and find help w
 
 ### Installation
 
-#### Step 1 - Fund your wallets
+### Step 1 - Create your wallets
+
+You will need 4 wallets total.
+
+**2 EVM wallets**
+•	1 operational wallet (private key input required)
+•	1 management wallet
+
+An example of an EVM wallet is using Metamask, which is highly recommended for this process.
+Make sure to add the OriginTrail Parachain Network RPC to your metamask, by adding it following the details here: https://docs.origintrail.io/blockchain-layer-1/origintrail-parachain/origintrail-parachain-network-rpc
+
+**2 Substrate wallets**
+•	1 operational wallet
+•	1 management wallet
+
+For each of the substrate wallets, have a copy of the substrate address (sometimes you need to change the address view from Polkadot relay to substrate) and the OriginTrail Parachain Devnet address. Find the substrate address is your chosen polkadot wallet.
+
+You can find the OriginTrail Parachain Devnet address here: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Flofar.origin-trail.network#/accounts
+
+Make sure to have your password saved so you can enter it later in the mapping step. You will also need to have your operational wallet private key handy.
+
+#### Step 2 - Fund your wallets
 
 Fund your Substrate and Ethereum wallets with OTP and TRAC test tokens. Instructions are available at [fund-your-v6-testnet-node.md](fund-your-v6-testnet-node.md "mention") page.
 
@@ -26,7 +47,11 @@ Fund your Substrate and Ethereum wallets with OTP and TRAC test tokens. Instruct
 Make sure to fund both your operational and management wallets.
 {% endhint %}
 
-#### Step 2 - Create a mapping for both operational and management wallets
+The address you must use for the substrate wallet command must be the OriginTrail Parachain Devnet address, which typically starts with a g.
+The discord bot will only allow you to fund one substrate wallet address (starting with ‘g’ as above) and one Ethereum wallet address. Therefore you will need to split the funds after receiving them, to make sure both your operational wallet and management wallet have Test OTP and Test Trac. Using your given wallets which have just been topped up with Test Trac and Test OTP, send a portion to the other wallets so that both your management wallet and your operational wallet have funds.
+
+
+#### Step 3 - Create a mapping for both operational and management wallets
 
 Create a mapping between your Substrate and Ethereum wallets (that are pre-funded in the previous step), this can be performed through [this interface](https://parachain.origintrail.io/parachain-account-mapping).&#x20;
 
@@ -34,11 +59,13 @@ Create a mapping between your Substrate and Ethereum wallets (that are pre-funde
 The mapping needs to be performed for both for the node operational and management wallets.
 {% endhint %}
 
-#### Step 3 - Login to your node server
+So map your operational substrate wallet (starting with a 5) to your operational metamask wallet. Then map your management substrate wallet (starting with a 5) to your management metamask wallet.
+
+#### Step 4 - Login to your node server
 
 Login to the server as root. You **cannot** use sudo and run this script. The command "**npm ci**" might fail.
 
-#### Step 4 - Run the installer
+#### Step 5 - Run the installer
 
 **Download the installer script:**
 
