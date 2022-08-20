@@ -50,6 +50,8 @@ Make sure to fund both your operational and management wallets.
 The address you must use for the substrate wallet command must be the OriginTrail Parachain Devnet address, which typically starts with a g.
 The discord bot will only allow you to fund one substrate wallet address (starting with ‘g’ as above) and one Ethereum wallet address. Therefore you will need to split the funds after receiving them, to make sure both your operational wallet and management wallet have Test OTP and Test Trac. Using your given wallets which have just been topped up with Test Trac and Test OTP, send a portion to the other wallets so that both your management wallet and your operational wallet have funds.
 
+Make sure you can see MOTP in metamask when you change to the OriginTrail Parachain Network RPC, you need it on both management wallet and operational wallet. Also check you have test OTP on both management wallet and operational wallet on the devnet as linked above.
+
 
 #### Step 3 - Create a mapping for both operational and management wallets
 
