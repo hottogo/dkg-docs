@@ -87,6 +87,8 @@ chmod +x installer.sh
 
 The installer script will guide you through the installation.
 
+When asked for a SQL password, use _admin_ as the password.
+
 {% hint style="success" %}
 **Congratulations. Welcome to v6 beta**
 {% endhint %}
