@@ -44,14 +44,13 @@ Make sure to have your password saved so you can enter it later in the mapping s
 Fund your Substrate and Ethereum wallets with OTP and TRAC test tokens. Instructions are available at [fund-your-v6-testnet-node.md](fund-your-v6-testnet-node.md "mention") page.
 
 {% hint style="info" %}
-Make sure to fund both your operational and management wallets.
+Make sure to fund both your operational and management wallets. You need test OTP in both your management wallet and your operational wallet, and then some test Trac in your operational wallet.
 {% endhint %}
 
 The address you must use for the substrate wallet command must be the OriginTrail Parachain Devnet address, which typically starts with a g.
-The discord bot will only allow you to fund one substrate wallet address (starting with ‘g’ as above) and one Ethereum wallet address. Therefore you will need to split the funds after receiving them, to make sure both your operational wallet and management wallet have Test OTP and Test Trac. Using your given wallets which have just been topped up with Test Trac and Test OTP, send a portion to the other wallets so that both your management wallet and your operational wallet have funds.
+The discord bot will only allow you to fund one substrate wallet address (starting with ‘g’ as above) and one Ethereum wallet address. Therefore you will need to split the OTP funds after receiving them, to make sure both your operational wallet and management wallet have Test OTP. Using your given wallets which have just been topped up with Test Trac and Test OTP, send a portion of the test OTP to the other wallets so that both your management wallet and your operational wallet have funds.
 
-Make sure you can see MOTP in metamask when you change to the OriginTrail Parachain Network RPC, you need it on both management wallet and operational wallet. Also check you have test OTP on both management wallet and operational wallet on the devnet as linked above.
-
+If you see MOTP in metamask when you change to the OriginTrail Parachain Network RPC, or you see the test OTP on the debnet as linked above, you are good to go. Remmeber OTP must be on your management wallet and your operational wallet.
 
 #### Step 3 - Create a mapping for both operational and management wallets
 
